@@ -52,12 +52,12 @@
                 {{#each updates}}
                     <li class="list-group-item {{#if @last}}active{{/if}}">
                         {{#if (equals status "investigating")}}
-                            <span>Investigating</span>
+                            Investigating
                         {{else}}
                             {{#if (equals status "resolved")}}
-                                <span>Resolved</span>
+                                Resolved
                             {{else}}
-                                <span>Unknown</span>
+                                Unknown
                             {{/if}}
                         {{/if}}: {{ message }} ({{formatDate date "yyyy LLL dd, hh:mm"}})</li>
                 {{/each}}
