@@ -3,7 +3,7 @@ title = "Incident with Enterprise API"
 status = "investigating" # Could also be "resolved"
 grade = "down" # Could also be "down"
 
-affects = ["enterpriseapi"]
+affects = []
 
 pinned = false
 hidden = false

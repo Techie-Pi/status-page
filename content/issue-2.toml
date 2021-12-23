@@ -3,7 +3,7 @@ title = "Incident with Premium API"
 status = "investigating" # Could also be "resolved"
 grade = "degraded" # Could also be "down"
 
-affects = ["premiumapi"]
+affects = []
 
 pinned = false
 hidden = false

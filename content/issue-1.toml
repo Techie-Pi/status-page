@@ -3,7 +3,7 @@ title = "Incident with Data API"
 status = "resolved" # Could also be "investigating"
 grade = "degraded" # Could also be "down"
 
-affects = ["dataapi"]
+affects = []
 
 pinned = false
 hidden = false

@@ -1,0 +1,22 @@
+[general]
+title = "Disabled Services"
+status = "investigating" # Could also be "resolved"
+grade = "down" # Could also be "down"
+
+affects = ["skilltest", "whalechat", "goodbye"]
+
+pinned = false
+hidden = false
+
+[metadata]
+creationDate = 2021-12-23T19:21:48.338Z
+updatedDate = 2021-12-23T19:21:48.338Z
+#resolvedDate = 2021-05-27T08:32:00-08:00
+
+[updates]
+
+[updates.1]
+status = "investigating"
+date = 2021-12-23T19:21:48.338Z
+message = "Some services are currently disabled for various reasons"
+

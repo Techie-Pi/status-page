@@ -5,23 +5,42 @@ path = "content"
 path = "public"
 
 [build]
-path = "build"
+path = "docs"
 
 [pages]
 path = "pages"
 
 [services]
-    [services.dataapi]
-    name = "Data API"
+    [services.alibot]
+    name = "AliBot"
     status = "ok" # Could also de "degraded" or "down"
     #ongoingIssue = 1
 
-    [services.premiumapi]
-    name = "Premium API"
-    status = "degraded"
-    ongoingIssue = 2
+    [services.mishisbot]
+    name = "MishisBot"
+    status = "ok"
+    #ongoingIssue = 2
 
-    [services.enterpriseapi]
-    name = "Enterprise API"
+    [services.simpledeploy]
+    name = "Simple Deploy"
+    status = "ok"
+    #ongoingIssue = 3
+
+    [services.voter]
+    name = "Voter"
+    status = "ok"
+
+    [services.skilltest]
+    name = "SkillTest"
     status = "down"
-    ongoingIssue = 3
+    ongoingIssue = 4
+
+    [services.whalechat]
+    name = "Whale Chat"
+    status = "down"
+    ongoingIssue = 4
+
+    [services.goodbye]
+    name = "Goodbye"
+    status = "down"
+    ongoingIssue = 4
