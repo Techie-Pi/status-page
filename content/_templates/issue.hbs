@@ -3,7 +3,16 @@
 <div>
     <span>Grade: {{ general.grade }}</span><br>
     <span>Affects: {{#each general.affects}}{{serviceName this}} {{/each}}</span><br>
-    <span>Created at: {{formatDate metadata.creationDate "yyyy LLL dd, hh:mm"}} | Resolved at: {{formatDate metadata.resolvedDate "yyyy LLL dd, hh:mm"}}</span><br>
+    <span>
+        Created at: {{formatDate metadata.creationDate "yyyy LLL dd, hh:mm"}} |
+        {{#if metadata.resolvedDate}}
+            Resolved at: {{formatDate metadata.resolvedDate "yyyy LLL dd, hh:mm"}}
+        {{else}}
+            {{#if metadata.updatedData}}
+                Last updated at: {{formatDate metadata.resolvedDate "yyyy LLL dd, hh:mm"}}
+            {{/if}}
+        {{/if}}
+    </span><br>
 </div>
 <hr>
 
