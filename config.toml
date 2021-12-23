@@ -1,0 +1,17 @@
+[content]
+path = "content"
+
+[public]
+path = "public"
+
+[build]
+path = "build"
+
+[pages]
+path = "pages"
+
+[services]
+    [services.dataapi]
+    name = "Data API"
+    status = "degraded" # Could also de "degraded" or "down"
+    ongoingIssue = 1

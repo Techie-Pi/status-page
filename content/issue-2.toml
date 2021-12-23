@@ -1,0 +1,32 @@
+[general]
+title = "Incident with Data API 2"
+status = "resolved" # Could also be "resolved"
+grade = "down" # Could also be "down"
+
+affects = ["dataapi"]
+
+pinned = false
+hidden = false
+
+[metadata]
+creationDate = 2021-05-27T07:32:00-08:00
+updatedDate = 2021-05-27T08:32:00-08:00
+resolvedDate = 2021-05-27T08:32:00-08:00
+
+[updates]
+
+    [updates.1]
+    status = "investigating"
+    date = 2021-05-27T07:32:00-08:00
+    message = "We are investigating reports of degraded performance on our Data API."
+
+    [updates.2]
+    status = "investigating"
+    date = 2021-05-27T07:55:00-08:00
+    message = "We identified the cause of the problem and are working on remediation."
+
+    [updates.3]
+    status = "resolved"
+    date = 2021-05-27T08:32:00-08:00
+    message = "This incident has been resolved."
+
