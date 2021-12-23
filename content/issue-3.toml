@@ -1,0 +1,27 @@
+[general]
+title = "Incident with Enterprise API"
+status = "investigating" # Could also be "resolved"
+grade = "down" # Could also be "down"
+
+affects = ["enterpriseapi"]
+
+pinned = false
+hidden = false
+
+[metadata]
+creationDate = 2021-05-27T07:32:00-08:00
+updatedDate = 2021-05-27T07:55:00-08:00
+#resolvedDate = 2021-05-27T08:32:00-08:00
+
+[updates]
+
+[updates.1]
+status = "investigating"
+date = 2021-05-27T07:32:00-08:00
+message = "We are investigating 5xx responses on our Enterprise API."
+
+[updates.2]
+status = "investigating"
+date = 2021-05-27T07:55:00-08:00
+message = "We identified the cause of the problem and are working on remediation."
+

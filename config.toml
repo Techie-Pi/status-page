@@ -13,5 +13,15 @@ path = "pages"
 [services]
     [services.dataapi]
     name = "Data API"
-    status = "degraded" # Could also de "degraded" or "down"
-    ongoingIssue = 1
+    status = "ok" # Could also de "degraded" or "down"
+    #ongoingIssue = 1
+
+    [services.premiumapi]
+    name = "Premium API"
+    status = "degraded"
+    ongoingIssue = 2
+
+    [services.enterpriseapi]
+    name = "Enterprise API"
+    status = "down"
+    ongoingIssue = 3

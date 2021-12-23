@@ -14,15 +14,15 @@
     {{#each services}}
         <span>{{serviceName @key}}:
         {{#if (serviceStatusIs @key "degraded")}}
-            <a href="{{ongoingIssueLink @key}}">Degraded status</a>
+            <a href="{{ongoingIssueLink @key}}">⚠ Degraded status</a>
         {{else}}
             {{#if (serviceStatusIs @key "down")}}
-                <a href="{{ongoingIssueLink @key}}">Down</a>
+                <a href="{{ongoingIssueLink @key}}">❗ Down</a>
             {{else}}
-                <span>No issues</span>
+                <span>✅ No issues</span>
             {{/if}}
         {{/if}}
-        </span>
+        </span><br>
     {{/each}}
 </div>
 </body>
