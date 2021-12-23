@@ -1,7 +1,7 @@
 # Status Page
 A simple, customizable, static, open-source status page
 
-> [Demo available here!](https://techie-pi.github.io/status-page)
+> [Production example available here!](https://techie-pi.github.io/status-page)
 
 ## Installation and usage
 1. Clone this repository
