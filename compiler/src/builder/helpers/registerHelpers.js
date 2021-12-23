@@ -35,6 +35,10 @@ function registerHelpers(services) {
     handlebars.registerHelper("serviceStatusIs", (id, type) => {
         return services[id].status === type;
     })
+
+    handlebars.registerHelper("equals", (val1, val2) => {
+        return val1 === val2;
+    })
 }
 
 module.exports = { registerHelpers };

@@ -55,6 +55,7 @@ The helpers available (check ``pages/index.hbs`` and ``content/_templates/issue.
 - ``ongoingIssue``: To get the current ongoing issue for a service
 - ``ongoingIssueLink``: To get the link for the ongoing issue of a service
 - ``serviceStatusIs``: To know if the current service status is something
+- ``equals``: To compare two values
 
 You can add custom pages on ``public/`` and with context access, on ``pages/`` (these should end on ``.hbs``).
 
