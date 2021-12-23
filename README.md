@@ -1,6 +1,8 @@
 # Status Page
 A simple, customizable, static, open-source status page
 
+> [Demo available here!](https://techie-pi.github.io/status-page)
+
 ## Installation and usage
 1. Clone this repository
 2. Run ``npm run initial`` to download the required dependencies
