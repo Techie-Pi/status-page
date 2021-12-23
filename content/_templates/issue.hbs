@@ -50,7 +50,16 @@
         <div>
             <ul class="list-group">
                 {{#each updates}}
-                    <li class="list-group-item {{#if @last}}active{{/if}}">{{ status }}: {{ message }} ({{formatDate date "yyyy LLL dd, hh:mm"}})</li>
+                    <li class="list-group-item {{#if @last}}active{{/if}}">
+                        {{#if (equals status "investigating")}}
+                            <span>Investigating</span>
+                        {{else}}
+                            {{#if (equals status "resolved")}}
+                                <span>Resolved</span>
+                            {{else}}
+                                <span>Unknown</span>
+                            {{/if}}
+                        {{/if}}: {{ message }} ({{formatDate date "yyyy LLL dd, hh:mm"}})</li>
                 {{/each}}
             </ul>
         </div>
