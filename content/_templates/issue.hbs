@@ -1,8 +1,10 @@
 <h1>{{ general.title }}</h1>
 <blockquote>Current Status: {{ general.status }}</blockquote>
-<span>Grade: {{ general.grade }}</span>
-<span>Affects: {{#each general.affects}}{{serviceName this}} {{/each}}</span>
-<span>Created at: {{formatDate metadata.creationDate "yyyy LLL dd, hh:mm"}} | Resolved at: {{formatDate metadata.resolvedDate "yyyy LLL dd, hh:mm"}}</span>
+<div>
+    <span>Grade: {{ general.grade }}</span><br>
+    <span>Affects: {{#each general.affects}}{{serviceName this}} {{/each}}</span><br>
+    <span>Created at: {{formatDate metadata.creationDate "yyyy LLL dd, hh:mm"}} | Resolved at: {{formatDate metadata.resolvedDate "yyyy LLL dd, hh:mm"}}</span><br>
+</div>
 <hr>
 
 <div>
