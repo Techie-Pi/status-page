@@ -1,5 +1,4 @@
-# Status Page
-A simple, customizable, static, open-source status page
+![status-page](https://socialify.git.ci/techie-pi/status-page/image?description=1&font=Source%20Code%20Pro&name=1&owner=1&pattern=Plus&theme=Dark)
 
 > [Production example available here!](https://status.1416.info)
 
